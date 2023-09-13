@@ -1,0 +1,24 @@
+.page{
+    background-color: #D85532;
+}
+
+.nav{
+    background-color: #F86845;
+    text-align: end;
+    padding: 2%;
+    padding-right: 5%;
+    font-size: 125%;
+}    
+
+.bar{
+    text-decoration: none;
+    color: white;
+    padding-inline-start: 3%;
+}
+
+.join{
+    border-style: ridge color none;
+    border-radius: 30pc;
+    background-color: #D85532 ;
+
+}

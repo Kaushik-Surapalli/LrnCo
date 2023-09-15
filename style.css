@@ -2,22 +2,45 @@
     background-color: #D85532;
 }
 
+.name9{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.top{
+    align-items: center;
+
+}
+
 .nav{
     background-color: #F86845;
     text-align: end;
     padding: 2%;
-    padding-right: 5%;
-    font-size: 125%;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    margin:0;
+    display: flexbox;
+    align-content: center;
 }    
 
 .bar{
     text-decoration: none;
     color: white;
     padding-inline-start: 3%;
+    align-items: end;
+    
 }
 
 .join{
     border-style: ridge color none;
-    border-radius: 30pc;
+    border-radius: 30px;
     background-color: #D85532 ;
+    padding: 10px ;
+    
+}
+
+.int{
+    color: white;
 }

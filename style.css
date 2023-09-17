@@ -7,6 +7,7 @@
     color: white;
     display: flex;
     align-items: center;
+    font-size: 30px;
 }
 
 .top{
@@ -30,6 +31,7 @@
     color: white;
     padding-inline-start: 3%;
     align-items: end;
+    font-size: 20px;
     
 }
 
@@ -44,3 +46,13 @@
 .int{
     color: white;
 }
+
+.about{
+    padding-left: 5%;
+    color: white;
+    font-style: normal;
+}
+ .para{
+    padding-left: 3%;
+    color: white;
+ }

@@ -1,63 +1,85 @@
-.page{
+.page {
     background-color: #D85532;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
 }
 
-.name9{
+.name9 {
     text-decoration: none;
     color: white;
+    font-size: 30px;
     display: flex;
     align-items: center;
-    font-size: 30px;
 }
 
-.top{
+.top {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-
+    padding: 0 20px; 
+    background-color: #F86845;
 }
 
-.nav{
-    background-color: #F86845;
-    text-align: end;
-    padding: 2%;
-    /*width: 100%;*/
-    /*height: 100%;*/
-    margin:0;
-    display: flexbox;
-    align-content: center;
-}    
+.nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px; 
+}
 
-.bar{
+.bar {
     text-decoration: none;
     color: white;
-    padding-inline-start: 3%;
-    align-items: end;
+    padding: 0 20px; 
     font-size: 20px;
-    
 }
 
-.join{
+.join {
     border-style: ridge color none;
     border-radius: 30px;
-    background-color: #D85532 ;
-    padding: 10px ;
-    
+    background-color: #D85532;
+    padding: 10px 20px; 
 }
 
-.int{
+.int {
     color: white;
+    text-align: center; 
+    margin-top: 20px; 
 }
 
-.about{
+.about {
     padding-left: 5%;
     color: white;
     font-style: normal;
 }
- .para{
+
+.para {
     padding-left: 3%;
     color: white;
- }
+}
 
- .blog1{
+.blog1 {
     color: white;
     box-shadow: none;
- }
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        height: auto; 
+    }
+    
+    .bar {
+        padding: 10px 0; 
+    }
+    
+    .join {
+        margin-top: 10px; 
+    }
+}

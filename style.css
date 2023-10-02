@@ -1,5 +1,5 @@
 .page {
-    background-color: #D85532;
+    background-color: #A6F6FF;
     margin: 0;
     padding: 0;
     height: 100vh; 
@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px; 
-    background-color: #F86845;
+    background-color: #1082ec;
 }
 
 .nav {
@@ -42,7 +42,7 @@
 .join {
     border-style: ridge color none;
     border-radius: 30px;
-    background-color: #D85532;
+    background-color: #A6F6FF;
     padding: 10px 20px; 
 }
 

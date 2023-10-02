@@ -217,7 +217,7 @@
 .bg {
     background-color: #9EDDFF;
     width: 100%;
-    height: 66vh; /* Set the height to fill the viewport */
+    height: auto; /* Set the height to fill the viewport */
     position: absolute; /* Add position: absolute; for proper layering */
 }
 

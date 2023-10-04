@@ -219,6 +219,7 @@
     width: 100%;
     height: auto; /* Set the height to fill the viewport */
     position: absolute; /* Add position: absolute; for proper layering */
+    overflow: hidden;
 }
 
 .image {
@@ -227,6 +228,7 @@
     background-position: center;
     width: 100%;
     height: 100%; /* Set the height to fill the parent container */
+   
 }
 
 
